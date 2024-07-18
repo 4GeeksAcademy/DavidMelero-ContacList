@@ -63,7 +63,7 @@ export const AddContact = () => {
                         <input type="text" className="form-control" placeholder="Enter address" name="address" value={contact.address} onChange={handleChange} />
                     </div>
                     <button type="submit" className="btn btn-primary form-control">{id ? "Update" : "Save"}</button>
-                    <Link className="mt-3 w-100 text-center" to="/">or get back to contacts</Link>
+                    {/* <Link className="mt-3 w-100 text-center" to="/">or get back to contacts</Link> */}
                 </form>
             </div>
         </div>
